@@ -5,7 +5,7 @@ export default async function DashboardPage() {
   const user = await currentUser();
 
   if (!userId || !user) {
-    return <div>You are not logged in</div>;
+    return <div></div>;
   }
 
   return (
